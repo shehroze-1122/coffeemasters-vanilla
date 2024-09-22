@@ -14,6 +14,7 @@
     <link rel="manifest" href="app.webmanifest">
     <link rel="apple-touch-icon" href="images/icons/icon.png">
     <link rel="icon" href="images/icons/icon.png">
+    <script src="app.js" type="module" defer></script>
 </head>
 
 <body>
@@ -68,7 +69,7 @@
 
     <template id="details-page-template">
         <header>   
-            <a href="#" onclick="app.router.go('/'); event.preventDefault()">&lt; Back</a>
+            <a href="#" onclick="app.router.navigate('/'); event.preventDefault()">&lt; Back</a>
             <h2></h2>
             <a></a>
         </header>
